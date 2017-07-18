@@ -1,0 +1,84 @@
+#title{
+    text-align:center;
+}
+#mainWrapper{
+    display:flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color:black;
+    width:900px;
+    height:400px;
+    color:red;
+}
+#correct{
+    margin:0 10px;
+}
+.questionDiv{
+    display:flex;
+    align-self:flex-start;
+}
+.questions{
+    margin: 10px 20px;
+}.questions:hover{
+    cursor:pointer;
+}
+@media screen and (min-width: 500px) {
+    #mainWrapper{
+        background-color:black;
+        width:400px;
+        height:400px;
+    }
+   #buttonWrapper{
+       height:100px;
+       width:400px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   #mainWrapper {
+       background-image:url("./assets/dota-background.jpg");
+       height:400px;
+      width:700px;
+   }
+   #buttonWrapper{
+       height:100px;
+       width:720px
+   }
+}
+
+#buttonWrapper{
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    width:900px;
+    height:100px;
+}
+#start{
+    background-color:blue;
+    color:orange;
+    border:none;
+    border-radius:2px;
+    height:30px;
+    margin: 0 20px 0 0;
+}
+#next{
+    background-color:blue;
+    color:orange;
+    border:none;
+    border-radius:2px;
+    height:30px;
+    margin: 0 20px 0 0;
+}
+
+.answerButton{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    background-color:lightblue;
+    color:green;
+    border:none;
+    margin: 0 10px 0 0;
+}
